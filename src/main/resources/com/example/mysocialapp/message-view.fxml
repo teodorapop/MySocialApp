@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Label?>
+<AnchorPane prefHeight="400.0" prefWidth="900.0" stylesheets="@../../../map/css/messages.css" xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.map.MessageController">
+    <ListView fx:id="messages" layoutX="-1.0" layoutY="-1.0" prefHeight="300.0" prefWidth="602.0">
+        <Label>empty</Label>
+    </ListView>
+    <Button fx:id="backToFriendsList" layoutX="30.0" layoutY="335.0" mnemonicParsing="false"
+            onAction="#onBackToFriendsList" text="Back"/>
+    <TextField fx:id="textNewMessage" layoutX="126.0" layoutY="335.0"
+               onAction="#deselect" prefHeight="26.0" prefWidth="342.0"/>
+    <Button layoutX="509.0" layoutY="336.0" mnemonicParsing="false" onAction="#onSendButton" text="Send"/>
+</AnchorPane>

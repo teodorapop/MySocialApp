@@ -1,0 +1,44 @@
+BorderPane {
+    /*-fx-background-image: url(ro/ubbcluj/map/Images/friends.png);*/
+    -fx-background-color: #4d494a;
+    -fx-min-width: 901.0;
+    -fx-min-height: 600;
+    -fx-max-width: 901.0;
+    -fx-max-height: 600;
+}
+
+Label {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-alignment: center;
+    -fx-text-fill: #182d2c;
+}
+
+TextField {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-alignment: center;
+}
+
+PasswordField {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-alignment: center;
+}
+
+Button {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-text-fill: "WHITE";
+    -fx-background-color: #182D2C;
+    -fx-alignment: center;
+}
+
+GridPane {
+    -fx-alignment: center;
+    -fx-background-size: 1200 900;
+    -fx-background-color: #43787d;
+    -fx-border-radius: 18 18 18 18;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-color: #182D2C;
+}

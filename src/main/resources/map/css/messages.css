@@ -1,0 +1,27 @@
+AnchorPane {
+    -fx-background-color: #494344;
+}
+
+ListView {
+    -fx-content-display: inline-block;
+}
+
+Label {
+    -fx-display-caret: inline-block;;
+    -fx-font-family: "Comic Sans MS";
+    -fx-border-radius: 18 18 18 18;
+    -fx-wrap-text: false;
+    -fx-label-padding: 5 20 5 20;
+    -fx-font-size: 13.0;
+    -fx-text-fill: #182d2c;
+    -fx-pref-width: 570;
+}
+
+
+Button {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-text-fill: "WHITE";
+    -fx-background-color: #182D2C;
+    -fx-alignment: center;
+}

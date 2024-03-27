@@ -1,0 +1,40 @@
+AnchorPane {
+    -fx-pref-height: 520;
+    -fx-pref-width: 667;
+    -fx-background-color: #4d4242;
+}
+
+SplitPane {
+    -fx-pref-height: 200;
+    -fx-pref-width: 500;
+}
+
+TableView {
+    -fx-pref-height: 381;
+    -fx-pref-width: 663;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: CENTER;
+}
+
+TableView .table-column {
+    -fx-alignment: CENTER;
+    -fx-border-color: #726869;
+}
+
+Button {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-text-fill: "WHITE";
+    -fx-background-color: #182D2C;
+    -fx-alignment: center;
+    -fx-text-alignment: CENTER;
+    -fx-border-insets: 0 5 0 5;
+    -fx-background-insets: 0 5 0 5;
+}
+
+HBox {
+    -fx-alignment: center;
+    -fx-text-alignment: CENTER;
+}

@@ -1,0 +1,31 @@
+AnchorPane {
+    -fx-background-color: #6b6672;
+    -fx-alignment: center;
+}
+
+VBox {
+    -fx-pref-height: 200;
+    -fx-pref-width: 200;
+    -fx-alignment: center;
+}
+
+Label {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-alignment: center;
+    -fx-text-fill: #182d2c;
+    -fx-pref-width: 200;
+}
+
+Button {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-text-fill: "WHITE";
+    -fx-background-color: #182D2C;
+    -fx-alignment: center;
+    -fx-pref-width: 125;
+    -fx-pref-height: 30;
+    -fx-line-height: 1.5em;
+    -fx-height: 3em;
+    -fx-overflow: hidden;
+}

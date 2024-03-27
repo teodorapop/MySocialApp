@@ -1,0 +1,58 @@
+AnchorPane {
+    -fx-pref-height: 520;
+    -fx-pref-width: 667;
+    -fx-background-color: #575455;
+}
+
+SplitPane {
+    -fx-pref-height: 200;
+    -fx-pref-width: 500;
+}
+
+TableView {
+    -fx-pref-height: 383;
+    -fx-pref-width: 597;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: CENTER;
+}
+
+TableView .table-column {
+    -fx-alignment: CENTER;
+    -fx-border-color: #6e6c6c;
+}
+
+Button {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-text-fill: "WHITE";
+    -fx-background-color: #182D2C;
+    -fx-alignment: center;
+    -fx-text-alignment: CENTER;
+    -fx-border-insets: 0 5 0 5;
+    -fx-background-insets: 0 5 0 5;
+}
+
+HBox {
+    -fx-alignment: center;
+    -fx-text-alignment: CENTER;
+}
+
+Label {
+    -fx-display-caret: inline-block;;
+    -fx-font-family: "Comic Sans MS";
+    -fx-border-radius: 18 18 18 18;
+    -fx-wrap-text: false;
+    -fx-label-padding: 5 20 5 20;
+    -fx-font-size: 13.0;
+    -fx-text-fill: #182d2c;
+    -fx-pref-width: 570;
+}
+
+TextField {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-alignment: center;
+
+}

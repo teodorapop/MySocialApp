@@ -1,0 +1,43 @@
+BorderPane {
+    -fx-background-image: url(ro/ubbcluj/map/Images/santa.png);
+    -fx-min-width: 901.0;
+    -fx-min-height: 600;
+    -fx-max-width: 901.0;
+    -fx-max-height: 600;
+    -fx-background-color: rgba(123, 123, 126, 0.33);
+}
+
+Label {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-alignment: center;
+    -fx-text-fill: #182d2c;
+}
+
+TextField {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-alignment: center;
+
+}
+
+Button {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13.0;
+    -fx-text-fill: "WHITE";
+    -fx-background-color: #182D2C;
+    -fx-alignment: center;
+
+}
+
+PasswordField {
+    -fx-alignment: center;
+}
+
+GridPane {
+    -fx-background-size: 1200 900;
+    -fx-background-color: #43787d;
+    -fx-border-radius: 18 18 18 18;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-color: #182D2C;
+}
